@@ -1,0 +1,57 @@
+:root {
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(244, 207, 78);
+}
+.page .container {
+  width: 350px;
+  background-color: white;
+  border-radius: 20px;
+  border: 2px solid;
+  box-shadow: 7px 7px 0px 0px black;
+}
+.page .container .content {
+  margin: 20px;
+  font-family: "figtree";
+}
+.page .container .content .pic img {
+  width: -webkit-fill-available;
+  border-radius: 20px;
+}
+.page .container .content h4 {
+  background-color: #f4cf4e;
+  padding: 10px;
+  width: fit-content;
+  margin: 10px 0 10px;
+  font-weight: 700;
+}
+.page .container .content .date {
+  margin: 10px 0 20px;
+}
+.page .container .content h2 {
+}
+.page .container .content .description {
+  color: #6f6d6d;
+  margin: 20px 0;
+}
+.page .container .content .credit {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: fit-content;
+}
+.page .container .content .credit img {
+  width: 40px;
+}
+.page .container .content .credit .name {
+  margin-left: 10px;
+  font-weight: 600;
+}
